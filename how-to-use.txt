@@ -1,0 +1,21 @@
+How to use the downloaded files
+
+After completing the 'Dev' and want to ship our 'Deployed' project 
+=> we need to ship it on host that is ready for 'nodeJS' (because after 'Deploy' all the code is on basic 'JavaScript'),
+   and then Run "npm start" => in our case we have 'nodeJS' installed so we can Run "npm start" locally
+
+A// On 'Shipment' (like this case, i took the project from 'Udemy' and run it on my machine) :
+1) Run "npm install" in the extracted folder
+2) Run "npm start" to view the project using 'NextJS'
+
+B// On 'Development' (When i start my project from scratch, or also case 'A//' works => no prob ):
+1) Run "npm run dev" to view the project using 'NextJS'
+2) Run "npm run build" to build the project using 'NextJS'
+
+Compare my code to yours to solve issues you might encounter. 
+You may also copy the content of src/ into your own project's src/ folder to use your project setup (which might've been created with a different create-react-app version) and still use my code.
+
+Hint :: => NextJS : Help us to 'point' to 'files' under 'folders' that are (='folders') considered as 'Routes'
+    => for expample : <Link href="/auth"> ::
+    => "/auth" => will point to '/auth' ('pages/auth') folder and acess to [index.js] File ('pages/auth'/index.js)
+    ====> There is no need to use '<Route />' Component from the package 'react-router-dom'
